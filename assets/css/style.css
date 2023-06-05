@@ -1,0 +1,108 @@
+body {
+  font-family: "Sora", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #c9d2da;
+  text-decoration: none;
+}
+
+/* ====================================common============================================== */
+
+.btn {
+  font-weight: 400;
+  display: inline-block;
+  min-width: 205px;
+  padding: 15px 0;
+  border-radius: 30px;
+  font-family: "Sora", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  text-align: center;
+  color: #ffffff;
+  background: #2e80ce;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: calc(100% - 24px);
+}
+
+/*==================================== header ==================================== */
+
+.header {
+  position: sticky;
+  left: 0;
+  top: -15px;
+  padding: 15px;
+  background: #10375c;
+}
+
+.nav-bar {
+  display: grid;
+  align-items: center;
+  padding: 15px 0;
+  grid-template-columns: 34.53% 45.73% 19.74%;
+}
+.nav-bar__cta-group__log-in {
+  background: transparent;
+  color: #ffffff;
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: right;
+  color: #c9d2da;
+  border: none;
+  cursor: pointer;
+}
+.nav-bar__cta-group .sign-up-btn {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  margin-left: 28px;
+  min-width: 104px;
+  line-height: 1.75;
+  padding: 8px 0;
+  /* identical to box height, or 175% */
+}
+
+.nav-bar__list {
+  display: flex;
+}
+.nav-bar__list__items a {
+  padding: 0 21px;
+}
+.nav-bar__list__items {
+  display: flex;
+  align-items: center;
+}
+.nav-bar__list__items:first-child a {
+  font-weight: 400;
+  padding-left: 0;
+  color: #ffffff;
+}
+
+.nav-bar__list__items:first-child::before {
+  display: inline-block;
+  margin-right: 8px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.nav-bar__list__items:not(.nav-bar__list__items:first-child):hover {
+  text-shadow: 1px 0 0 #ffffff;
+}
