@@ -358,10 +358,68 @@ a {
   color: #575f66;
 }
 
-.about-as__infor__btn{
+.about-as__infor__btn {
   margin-top: 38px;
 }
 
+/* ==================================team-doctor ====================   */
 
+.team-doctor {
+  padding: 85px 0 132px;
+}
 
+.team-doctor__cta {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+}
 
+.team-doctor__infor {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 23.08%);
+  gap: 30px;
+}
+
+.team-doctor__infor-items img {
+  width: 100%;
+  height: 318px;
+  object-fit: cover;
+  background: #eaf6ff;
+  border-radius: 6px;
+}
+.team-doctor__infor-items .lv3 {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.team-doctor__infor-items__desc {
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #575f66;
+}
+
+.team-doctor__cta-group {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.team-doctor__cta-group .arrow-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #575f66;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 50%;
+}
+.team-doctor__cta-group .arrow-wrap--active,
+.team-doctor__cta-group .arrow-wrap:hover {
+  cursor: pointer;
+  background: #2e80ce;
+  color: white;
+}
