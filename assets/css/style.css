@@ -311,3 +311,57 @@ a {
 .how-works__list__items:hover a {
   color: #2e80ce;
 }
+
+/* ==============================about-as================================ */
+
+.about-as {
+  padding: 170px 0 85px;
+}
+
+.about-as__wrap {
+  display: grid;
+  grid-template-columns: 48.72% 51.28%;
+  align-items: center;
+}
+
+.about-as__img-bock {
+  position: relative;
+  height: 491px;
+}
+
+.about-as__img-bock img {
+  width: 89.82%;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.about-as__img-bock img:last-child {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 58.24%;
+}
+
+.about-as__infor {
+  padding-left: 130px;
+}
+
+.about-as__infor .lv2 {
+  text-align: start;
+}
+
+.about-as__infor__desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #575f66;
+}
+
+.about-as__infor__btn{
+  margin-top: 38px;
+}
+
+
+
+
