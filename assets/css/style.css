@@ -489,7 +489,7 @@ a {
 /* ===========================blog ============================ */
 
 .blog {
-  padding: 170px 0;
+  padding: 170px 0 85px;
 }
 
 .blog .main-content {
@@ -554,4 +554,126 @@ a {
 }
 .blog__items:nth-child(3) .blog__items__infor > a {
   color: #2e80ce;
+}
+
+/* ====================cta-group-end===================== */
+.cta-group-end {
+  padding: 85px 0 170px;
+}
+.cta-group-end__wrap {
+  padding: 100px 0;
+  background: #f7fbff;
+}
+
+.cta-group-end__desc {
+  margin: 0 auto;
+  max-width: 617px;
+  margin-top: 18px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  text-align: center;
+  color: #575f66;
+}
+
+.cta-group-end__wrap__btn {
+  margin-top: 38px;
+}
+
+.cta-group-end__wrap__center {
+  display: flex;
+  justify-content: center;
+}
+
+/* ===========================footer========================= */
+
+.footer {
+  background: #10375c;
+  padding: 100px 0 42px;
+}
+
+.footer__wrap {
+  display: grid;
+  grid-template-columns: 35.38% 18.12% 18.12% 28.37%;
+}
+
+.footer__wrap__items__desc {
+  margin-top: 20px;
+  max-width: 336px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #a9b3bb;
+}
+
+.footer__wrap__items .lv3 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #ffffff;
+}
+
+.footer__wrap__items .list {
+  margin-top: 20px;
+}
+.footer__wrap__items .list .items {
+  margin-bottom: 10px;
+}
+.footer__wrap__items .list .items:last-child {
+  margin-bottom: 28px;
+}
+.footer__wrap__items .social {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer__wrap__items .social__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 28px;
+}
+.footer__wrap__items .social__items:first-child {
+  background: #2e80ce;
+}
+
+.footer .input_email {
+  margin-top: 10px;
+  padding: 10px;
+  background: #10375c;
+  border: 1px solid #406181;
+  border-radius: 4px;
+}
+.footer .summit_email {
+  margin-left: 12px;
+  width: 108px;
+  height: 46px;
+  background: #2e80ce;
+  border-radius: 4px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #ffffff;
+  border: none;
+}
+
+.footer__way {
+  width: 100%;
+  height: 1px;
+  background: #406181;
+}
+.footer__desc {
+  margin-top: 28px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #aab3ba;
 }
