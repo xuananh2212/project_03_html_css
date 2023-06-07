@@ -161,6 +161,7 @@ a {
 .hezo {
   padding: 61px 0 110px;
   background: #10375c;
+  height: calc(100vh - 74px);
 }
 .hezo-wrap {
   display: grid;
