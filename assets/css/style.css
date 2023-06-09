@@ -534,15 +534,19 @@ a {
   justify-content: flex-start;
 }
 .blog__items {
-  border: 1px solid #e8ebee;
   border-radius: 12px;
 }
 .blog__items__img-inner {
+  height: 172px;
   overflow: hidden;
   border-radius: 12px 12px 0px 0px;
 }
 .blog__items:hover {
   box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+}
+.blog__items:hover .blog__items__infor{
+  border-color: #ffff;
+
 }
 .blog__items:hover img {
   transform: scale(1.1);
@@ -556,6 +560,9 @@ a {
 }
 .blog__items__infor {
   padding: 18px 22px 21px;
+  border: 1px solid #E8EBEE;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
 }
 
 .blog__items .lv3 a {
