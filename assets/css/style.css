@@ -228,6 +228,7 @@ a {
   color: #575f66;
 }
 .services__wrap {
+  align-items: center;
   display: grid;
   margin-top: 70px;
   grid-template-columns: 59.83% 40.17%;
@@ -407,13 +408,22 @@ a {
   grid-template-columns: repeat(4, 23.08%);
   gap: 30px;
 }
+.team-doctor__img-wrap {
+  height: 318px;
+  padding-top: 28px;
+  overflow: hidden;
+  background: #eaf6ff;
+  border-radius: 6px;
+}
+.team-doctor__infor-items:hover img {
+  transform: scale(1.1);
+}
 
 .team-doctor__infor-items img {
   width: 100%;
-  height: 318px;
   object-fit: cover;
-  background: #eaf6ff;
   border-radius: 6px;
+  transition: 0.25s;
 }
 .team-doctor__infor-items .lv3 {
   margin-top: 12px;
@@ -428,6 +438,9 @@ a {
 }
 
 /* =================cta-group-infor=================  */
+.cta-group-infor {
+  padding-top: 132px;
+}
 
 .cta-group-infor__wrap {
   display: grid;
@@ -436,15 +449,9 @@ a {
   grid-template-columns: 30.36% 69.64%;
   align-items: center;
 }
-.cta-group-infor__img-block {
-  position: relative;
-  height: 427px;
-}
-
 .cta-group-infor__img-block img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  margin-top: -95px;
+  margin-left: 70px;
 }
 
 .cta-group-infor__content {
@@ -470,13 +477,16 @@ a {
   display: flex;
   gap: 50px;
 }
-.cta-group-infor__content__row {
+.install-app-store,
+.install-google-play {
   display: flex;
+  max-width: 135px;
   gap: 8px;
   align-items: center;
-  padding: 7px 10px;
+  padding: 6px 9px;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  line-height: normal;
 }
 
 .cta-group-infor__content__row span,
@@ -485,6 +495,13 @@ a {
 }
 .cta-group-infor__content__row .lv3 {
   margin-top: 3px;
+}
+.cta-group-infor__content__row span {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.cta-group-infor__content__row .lv3 {
+  font-size: 1.3rem;
 }
 
 /* ===========================blog ============================ */
@@ -520,14 +537,22 @@ a {
   border: 1px solid #e8ebee;
   border-radius: 12px;
 }
-.blog__items:nth-child(3) {
+.blog__items__img-inner {
+  overflow: hidden;
+  border-radius: 12px 12px 0px 0px;
+}
+.blog__items:hover {
   box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+}
+.blog__items:hover img {
+  transform: scale(1.1);
 }
 .blog__items img {
   width: 100%;
   height: 172px;
   object-fit: cover;
   border-radius: 12px 12px 0px 0px;
+  transition: 0.25s;
 }
 .blog__items__infor {
   padding: 18px 22px 21px;
@@ -553,7 +578,7 @@ a {
   font-size: 1.4rem;
   color: #10375c;
 }
-.blog__items:nth-child(3) .blog__items__infor > a {
+.blog__items a:hover {
   color: #2e80ce;
 }
 
